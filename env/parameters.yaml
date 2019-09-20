@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:jx-aps-consumer-wb2/adminUser:password
+  username: admin
+dashboardAuthID: vault:jx-aps-consumer-wb2:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:jx-aps-consumer-wb2:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: PIPELINE_GITHUB_EMAIL
+  token: vault:jx-aps-consumer-wb2/pipelineUser:token
+  username: warrenbailey-cb-bot
+prow:
+  hmacToken: vault:jx-aps-consumer-wb2/prow:hmacToken
